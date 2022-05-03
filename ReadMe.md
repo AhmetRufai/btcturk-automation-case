@@ -24,6 +24,7 @@
 * Selenium 4+ versionu webdrivermanager ile uyumlu çalışmadığı için 3.141.59 versionu kullanıldı.
 * Testlerin paralel koşulması ve report oluşması için testgn.xml dosyası TestNG runner'ı ile çalıştırılmalı.
 * Report dosyası target/cucumber altında oluşmaktadır.
+* Son oluşan report dosyası proje dizinine Report.html olarak eklendi.
 * Otomasyonun başarılı çalıştığının ve report dosyasının oluştuğunu göstermek için ekran kaydı alınmıştır. İlgili ekran kaydı proje içerisindeki ScreenRecord.mov adlı videodur.
 * Gönderilen otomasyon case çalışması dosyası proje içerisine eklenmiştir.
 
