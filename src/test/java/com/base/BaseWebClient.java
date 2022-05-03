@@ -80,11 +80,14 @@ public class BaseWebClient {
     }
 
     public void tearDown(WebDriver driver) {
+        driver.quit();
+    }
+
+    public void getSsOnFailure(WebDriver driver) {
         if (scenario.isFailed()) {
             byte[] data = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
             scenario.attach(data, "image/png", "Fail Screenshot");
         }
-        driver.quit();
     }
 
     public String getElementText(WebDriver driver, int timeOutInSeconds, int sleepInMiles, By by) {

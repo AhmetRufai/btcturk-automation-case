@@ -20,6 +20,7 @@
         <rest-assured.version>5.0.1</rest-assured.version>
         <json-simple.version>1.1.1</json-simple.version>
         <cucumber.version>7.3.2</cucumber.version>
+        <extentreports-cucumber7-adapter.version>1.4.2</extentreports-cucumber7-adapter.version>
     </properties>
 
     <dependencies>
@@ -95,6 +96,13 @@
             <artifactId>jackson-datatype-jdk8</artifactId>
             <version>${jackson.version}</version>
         </dependency>
-    </dependencies>
 
+        <!-- Required to generate reports with Extend Spark Reporter -->
+        <dependency>
+            <groupId>tech.grasshopper</groupId>
+            <artifactId>extentreports-cucumber7-adapter</artifactId>
+            <version>${extentreports-cucumber7-adapter.version}</version>
+        </dependency>
+
+    </dependencies>
 </project>

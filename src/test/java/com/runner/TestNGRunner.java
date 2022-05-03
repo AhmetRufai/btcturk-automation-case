@@ -11,7 +11,8 @@ import org.testng.annotations.DataProvider;
         features = {"src/test/resources"},
         glue = {"com.steps"},
         plugin = {"pretty",
-                "html:target/cucumber/report-html.html"})
+                "html:target/cucumber/report-html.html",
+                "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"})
 public class TestNGRunner extends AbstractTestNGCucumberTests {
 
 

@@ -4,6 +4,7 @@ import com.base.BaseWebClient;
 import com.pages.HomePage;
 import com.pages.SimpleBuySellPage;
 import io.cucumber.java.After;
+import io.cucumber.java.AfterStep;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
 import io.cucumber.java.en.And;
@@ -67,6 +68,11 @@ public class CompareMaxMinPriceSteps {
     public void selectUsdtTry() {
         simpleBuySellPage.selectUsdtTry(driver);
         scenario.log("USDT/TRY başarılı bir şekilde seçildi");
+    }
+
+    @AfterStep
+    public void afterStep() {
+        baseWebClient.getSsOnFailure(driver);
     }
 
     @After
