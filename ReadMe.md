@@ -15,7 +15,7 @@
 * Bazı method'ları daha pratik kullanmak ve okunabilirliği artırmak için lombok library ve plugin'i kullanıldı.
 * Web driver'ları manual indirip path göstermek yerine webdrivermanager library kullanılarak otomatik indirilmeleri sağlandı.
 * Yml formatındaki dosyalardan veri okuyabilmek için jackson-dataformat-yaml library kullanıldı.
-* Rest assured ile istek atarken body olarak Object tipinin kullanılabilmesi için jackson-datatype-jdk8 kullanıldı.
+* Rest assured ile istek atarken body olarak Object tipinin kullanılabilmesi için jackson-datatype-jdk8 library kullanıldı.
 * Detaylı loglama için slf4j library kullanıldı.
 * Otomasyon POM ve OOP prensiplerine göre tasarlandı.
 
