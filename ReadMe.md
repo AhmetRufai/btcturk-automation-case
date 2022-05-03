@@ -8,7 +8,7 @@
 * Loglama işlemleri report dosyasında görünecek şekilde yapıldı.
 * Api testleri için Rest Assured library kullanıldı.
 * Cross Browser ve paralel test için TesNG'in Cucumber için olan library'si kullanıldı.
-* UI otomasyon case'i ortam bazlı çalışabilir şekilde yazıldı. Prod ortamda çalıştırmak için ilgili runner'ın Vm Option'una -Denv=prod yazılmalıdır.
+* Otomasyon, ortam bazlı çalışabilir şekilde yazıldı. Prod ortamda çalıştırmak için ilgili runner'ın Vm Option'una -Denv=prod yazılmalıdır.
 * Ortam url bilgileri config-prod.yml ve config-qa.yml dosyaları içerisinden okunmaktadır.
 * Api testi için main/java altında modelleme yapılmıştır.
 * Api testlerinde her ep için main/java/com/api altında client class'ları oluşturulmuştur. Bu class'lar Generic bir class'dan implement edilmiştir.
