@@ -31,7 +31,8 @@
 * Selenium 4+ versionu webdrivermanager ile uyumlu çalışmadığı için 3.141.59 versionu kullanıldı.
 * Testlerin paralel koşulması ve report oluşması için testgn.xml dosyası TestNG runner'ı ile çalıştırılmalı.
 * Cucumber report dosyası target/cucumber altında oluşmaktadır.
-* Extent Spark report dosyaları sparkreports altında oluşmaktadır.
+* Extent Spark report dosyaları sparkreports dizini altında oluşmaktadır.
+* Oluşan report dosyasının gösterimi, ekran kaydı alınarak ScreenRecordForSparkReport.mov ismiyle proje içerisine eklenmiştir.
 * Son oluşan report dosyası proje dizinine Report.html olarak eklendi.
 * Otomasyonun başarılı çalıştığının ve report dosyasının oluştuğunu göstermek için ekran kaydı alınmıştır. İlgili ekran
   kaydı proje içerisindeki ScreenRecord.mov adlı videodur.
